@@ -19,7 +19,7 @@ def get_transcript(question):
     # print(transcript)
     return transcript
 
-API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDE2NDArMUBkcy5zdHVkeS5paXRtLmFjLmluIn0.Oeg6lAaRenn3gnBWd6qaGscvatJ6ftTpvw-waESMVs8"
+API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE4MzJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.IX42vTwrieSJAGvUnq2dqI_vlkCBoW_1zyc2lXoJVpQ"
 
 def correct_transcript(transcript):
     BASE_URL = "https://aiproxy.sanand.workers.dev/openai/v1"
